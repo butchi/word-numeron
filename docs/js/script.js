@@ -20,5 +20,5 @@ formElm.addEventListener('submit', evt => {
     }
   }
 
-  outputElm.innerText = `${word1.toUpperCase()}, ${word2.toUpperCase()}\nE: ${e}, B: ${b}`;
+  outputElm.innerText = `${word1.toUpperCase()}\n${word2.toUpperCase()}\nE: ${e}, B: ${b}`;
 });
